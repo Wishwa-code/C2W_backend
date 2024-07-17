@@ -32,7 +32,7 @@ def create_app():
     CORS(app)
 
     # Retrieve MongoDB URL from environment variables
-    mongo_url = os.getenv('MONGO_URL')
+    mongo_url = "mongodb+srv://vishva2017087:ckGzmJoKMoXkeMuQ@cluster0.i62acyf.mongodb.net/test"
     if not mongo_url:
         raise EnvironmentError("MONGO_URL not found in environment variables.")
 
