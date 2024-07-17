@@ -1,0 +1,16 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore log files
+*.log
+
+# Ignore the README file
+README.md
+
+myenv
+newv
+node_modules
+venv
